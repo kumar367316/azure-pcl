@@ -19,7 +19,6 @@ import org.springframework.web.multipart.MultipartFile;
 import com.htc.pclconverter.service.AzureBlobAdapter;
 
 @RestController
-@RequestMapping("/v1/pcl")
 public class AzureBlobFileController {
 
 	@Autowired
